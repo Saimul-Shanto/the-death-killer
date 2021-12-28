@@ -8,12 +8,15 @@ using TMPro;
 public class TImerScript : MonoBehaviour
 {
 
-    public static TImerScript _instance;
+    public  TImerScript _instance;
     public TextMeshProUGUI timerText;
 
     private float startTime;
-    public float t=300;
+    public static float t=120;
     public float total;
+
+
+
 
     // Start is called before the first frame update
     void Start()
